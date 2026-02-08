@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus-Antonius | Dark Country & Blues</title>
+
+    <style>
+        :root {
+            --bg: #0b0b0b;
+            --accent: #c18f59;
+            --text: #e6e6e6;
+            --muted: #9a9a9a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #1a1a1a, var(--bg));
+            color: var(--text);
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem;
+            background:
+                linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
+                url("Markus-Antonius Spotify profile Pic.png") center / cover no-repeat;
+        }
+
+        .hero {
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .hero h2 {
+            font-weight: normal;
+            font-size: 1.3rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            font-size: 1.1rem;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h3 {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        /* PROFILE IMAGE SECTION */
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 280px;
+            max-width: 90%;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+            border: 2px solid rgba(193,143,89,0.4);
+        }
+
+        .profile p {
+            margin-top: 1.5rem;
+            color: var(--muted);
+            font-style: italic;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            color: var(--muted);
+            text-align: center;
+        }
+
+        .spotify-embed {
+            max-width: 900px;
+            margin: 2rem auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: var(--muted);
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Markus-Antonius</h1>
+        <h2>Dark Country & Blues</h2>
+        <p>
+            A young AI music producer from Bloemfontein, South Africa.
+            Grit-soaked melodies, whiskey-stained stories,
+            country and blues reborn through machines and midnight thoughts.
+        </p>
+    </div>
+</header>
+
+<section class="profile">
+    <img src="Markus-Antonius Spotify profile Pic.png" alt="Markus-Antonius artist portrait">
+    <p>Code-born soul. Old-world grit.</p>
+</section>
+
+<section class="about">
+    <h3>About</h3>
+    <p>
+        Markus-Antonius fuses raw country soul with modern AI-driven production,
+        carving music that feels old, dangerous, and deliberate.
+        These are songs for porch lights, long shadows,
+        and the quiet moments where truth refuses to stay buried.
+    </p>
+</section>
+
+<section>
+    <h3>Listen</h3>
+
+    <div class="spotify-embed">
+        <iframe
+            style="border-radius:12px"
+            src="https://open.spotify.com/embed/artist/7pZK5w04wKcGcKfTPPQD1M?utm_source=generator"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    © 2026 Markus-Antonius · Bloemfontein, South Africa  
+    <br>
+    <span>Dark Country · Blues · AI Soul</span>
+</footer>
+
+</body>
+</html>
